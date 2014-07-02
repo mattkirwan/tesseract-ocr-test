@@ -2,7 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-$tesseract = new TesseractOCR('ls_test.png');
+$tesseract = new TesseractOCR('board_1.jpg');
 
 $tesseract->setTempDir(dirname(__FILE__).'/tmp/');
 
