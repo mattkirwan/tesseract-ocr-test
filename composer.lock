@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "b81a9b02790e1faa74b4d1139a28bba6",
+    "packages": [
+        {
+            "name": "thiagoalessio/tesseract_ocr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagoalessio/tesseract-ocr-for-php.git",
+                "reference": "3d908cded78cdb5c2508f073d6cf8c632424a177"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagoalessio/tesseract-ocr-for-php/zipball/3d908cded78cdb5c2508f073d6cf8c632424a177",
+                "reference": "3d908cded78cdb5c2508f073d6cf8c632424a177",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "TesseractOCR/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Alessio",
+                    "email": "thiagoalessio@me.com",
+                    "homepage": "http://thiagoalessio.com"
+                }
+            ],
+            "description": "A wrapper to work with TesseractOCR inside PHP",
+            "keywords": [
+                "OCR",
+                "Tesseract",
+                "text recognition"
+            ],
+            "time": "2014-04-16 15:17:19"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thiagoalessio/tesseract_ocr": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
